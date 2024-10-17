@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h2>Cerca Calciatore</h2>
+
+  <input type="text" id="myInput" onkeyup="searchApi()" placeholder="Cerca giocatori.." title="Type in a name">
+  <button id="clear" class="clear-results" onclick="clearList()">clear</button>
+  <ul id="myUL"></ul>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./js/legaseria.js"></script>
+</body>
+
+</html>
